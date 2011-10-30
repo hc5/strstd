@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER/App Engine (2)"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_20"/>
+	<classpathentry kind="lib" path="C:/eclipse/WorkBench/strengthstandard/war/WEB-INF/lib/recaptcha4j-0.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/WorkBench/strengthstandard/war/WEB-INF/lib/iText-5.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/eclipse/WorkBench/strengthstandard/war/WEB-INF/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

@@ -1,0 +1,78 @@
+<style type="text/css">
+.barBg{
+padding:0px;
+background-color:#EFEFFF;
+border-radius:3px;
+border-style:solid;
+border-width:1px;
+border-color:#BBB;
+border-bottom-color:#FFF;
+border-left-color:#EEE;
+border-right-color:#EEE;
+position:relative;
+height:35px;
+}
+.bar{
+height:100%;
+-webkit-border-top-left-radius: 3px;
+-webkit-border-bottom-left-radius: 3px;
+-moz-border-radius-topleft: 3px;
+-moz-border-radius-bottomleft: 3px;
+border-top-left-radius: 3px;
+border-right-color:#EEE;
+border-right-style:solid;
+border-right-width:1px;
+border-bottom-left-radius: 3px;
+background: #FFA5A5; /* old browsers */
+background: -moz-linear-gradient(top, #FFA5A5 0%, #FC7979 38%, #FE5555 39%, #FE5555 100%); /* firefox */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFA5A5), color-stop(38%,#FC7979), color-stop(39%,#FE5555), color-stop(100%,#FE5555)); /* webkit */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFA5A5', endColorstr='#FE5555',GradientType=0 ); /* ie */
+}
+.divider{
+position:absolute;
+border-left-style:dotted;
+border-left-color:#888;
+border-left-width:1px;
+height:100%;
+}
+.label{
+padding-left:10px;
+color:#FFF;
+font-size:32px;
+font-family:Arial;
+font-weight:bold;
+float:left;
+height:100%;
+vertical-align:middle;
+text-shadow:0 0 1px #EEE;
+}
+</style>
+<body>
+<div style="width:750px">
+	<table style="width:100%;padding-left:30px;">
+	<tr><td>
+	<div class="barBg">
+	<div class="label">265</div>
+	<div class="divider" style="left:25%">&nbsp;</div>
+	<div class="divider" style="left:50%">&nbsp;</div>
+	<div class="divider" style="left:75%">&nbsp;</div>
+	<div class="bar" style="width:35%">&nbsp;</div>
+	</div>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<div style="position:relative;font-family:Arial;color:#555;">
+	<span style="left:0%;position:absolute;margin-left:-32px"><center>Untrained<br>(70)</center></span>
+	<span style="left:25%;position:absolute;margin-left:-25px"><center>Novice<br>(70)</center></span>
+	<span style="left:50%;position:absolute;margin-left:-45px"><center>Intermediate<br>(70)</center></span>
+	<span style="left:75%;position:absolute;margin-left:-40px"><center>Advanced<br>(70)</center></span>
+	<span style="left:100%;position:absolute;margin-left:-13px"><center>Elite<br>(70)</center></span>
+	</div>
+	</td>
+	</tr>
+	</table>
+	</div>
+</body>
